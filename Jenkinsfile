@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Hello World"){
             steps{
-                bat 'dir'
+                sh 'dir'
             }
         }
     }
